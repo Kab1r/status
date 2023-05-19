@@ -15,6 +15,10 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
+  - id: s3-kabr-dev
+    name: Scale S3 (MinIO)
+    url: 'https://s3.kabr.dev'
+    
   - id: dash-kube-eu-org # unique identifier
     name: Kubernetes Dashboard (Home)
     # description: 'Dashboard for Home Kubernetes Cluster' # default=empty
